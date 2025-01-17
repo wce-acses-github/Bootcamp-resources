@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+int arr[8];
+int freq = 0;
+int num;
+
+cout<<"Enter the number";
+cin>>num;
+for(int i = 0; i<8;i++){
+    cin>>arr[i];
+}
+
+for(int i = 0;i<8;i++ ){
+    if(arr[i]==num){
+        freq++;
+    }
+}
+ 
+ cout<<freq<<endl;
+
+    return 0;
+}
